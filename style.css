@@ -4,6 +4,7 @@ body {
   background-color: #f9fafb;
   line-height: 1.5;
   color: #333;
+  overflow-x: hidden;
 }
 
 header {
@@ -19,6 +20,7 @@ header .wrapper,
 footer .wrapper {
   padding: 15px 0;
   background-color: transparent; 
+}
   
 .wrapper {
   max-width: 1000px;
@@ -177,4 +179,4 @@ ul {
   .photo {
     width: 50%;
   }
-}
+
