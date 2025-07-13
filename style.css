@@ -12,13 +12,15 @@ header {
 
 header,
 footer {
-  background-color: #2a3d66;
+  background-color: transparent;
 }
 
 header .wrapper,
 footer .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #2a3d66;
   padding: 15px 0;
-  background-color: transparent; 
 }
   
 .wrapper {
@@ -161,6 +163,10 @@ ul {
 
 .cv-markdown {
   height: 150px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
