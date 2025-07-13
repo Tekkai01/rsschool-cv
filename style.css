@@ -163,10 +163,6 @@ ul {
   height: 150px;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
