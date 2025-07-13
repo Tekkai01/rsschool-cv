@@ -169,19 +169,15 @@ ul {
   box-sizing: border-box;
 }
 
+
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
+  nav {
+    gap: 15px;
   }
 
   .left-column,
   .right-column {
     width: 100%;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 15px;
   }
 
   .photo {
