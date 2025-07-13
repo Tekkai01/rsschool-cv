@@ -10,12 +10,16 @@ header {
   text-align: center;
 }
 
-header .wrapper,
-footer .wrapper {
+header,
+footer {
   background-color: #2a3d66;
-  padding: 15px 0;
 }
 
+header .wrapper,
+footer .wrapper {
+  padding: 15px 0;
+  background-color: transparent; 
+  
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
