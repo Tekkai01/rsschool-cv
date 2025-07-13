@@ -6,15 +6,19 @@ body {
   color: #333;
 }
 
-.wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 header {
   background-color: #2a3d66; 
   padding: 15px 0px;
   text-align: center;
+}
+
+footer {
+  background-color: #2a3d66;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav {
@@ -115,10 +119,6 @@ h3 {
 
 ul {
   padding-left: 20px;
-}
-
-footer {
-  background-color: #2a3d66;
 }
 
 .footer-inner {
