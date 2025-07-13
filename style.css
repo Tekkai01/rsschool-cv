@@ -7,19 +7,18 @@ body {
 }
 
 header {
-  background-color: #2a3d66;
-  padding: 15px 0px;
   text-align: center;
 }
 
-footer {
+header .wrapper,
+footer .wrapper {
   background-color: #2a3d66;
+  padding: 15px 0;
 }
 
 .wrapper {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 nav {
