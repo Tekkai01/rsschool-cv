@@ -69,6 +69,9 @@ nav a:hover::after {
   margin: 0 auto;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   background-color: #fff;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .container a {
@@ -160,6 +163,10 @@ ul {
   height: 150px;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -179,3 +186,4 @@ ul {
     width: 50%;
   }
 }
+
