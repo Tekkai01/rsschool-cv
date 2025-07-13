@@ -16,6 +16,11 @@ footer {
   background-color: #2a3d66;
 }
 
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   justify-content: center;
